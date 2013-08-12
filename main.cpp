@@ -20,29 +20,29 @@ int main()
 	cin >> champselect;
 
 	if (champselect == "Ahri")
-		Ahri();
+		ChampFuncs.Ahri();
 	if (champselect == "Akali")
-		Akali();
+		ChampFuncs.Akali();
 	if (champselect == "Anivia")
-		Anivia();
+		ChampFuncs.Anivia();
 	if (champselect == "Annie")
-		Annie();
+		ChampFuncs.Annie();
 	if (champselect == "Brand")
-		Brand();
+		ChampFuncs.Brand();
 	if (champselect == "Cassiopeia")
-		Cassiopeia();
+		ChampFuncs.Cassiopeia();
 	if (champselect == "Chogath")
-		Chogath();
+		ChampFuncs.Chogath();
 	if (champselect == "Diana")
-		Diana();
+		ChampFuncs.Diana();
 	if (champselect == "Elise")
-		Elise();
+		ChampFuncs.Elise();
 	if (champselect == "Ezreal")
-		Ezreal();
+		ChampFuncs.Ezreal();
 	if (champselect == "Fiddlesticks")
-		Fiddlesticks();
+		ChampFuncs.Fiddlesticks();
 	if (champselect == "Fizz")
-		Fizz();
+		ChampFuncs.Fizz();
 	system("PAUSE");
 	return 0;
 }
